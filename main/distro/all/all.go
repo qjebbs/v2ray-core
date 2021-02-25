@@ -65,4 +65,7 @@ import (
 
 	// commands
 	_ "github.com/v2fly/v2ray-core/v4/main/commands/all"
+
+	// third party vmess link support
+	_ "github.com/v2fly/v2ray-core/v4/infra/link/vmess3p"
 )
